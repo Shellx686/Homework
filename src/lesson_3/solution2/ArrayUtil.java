@@ -28,12 +28,30 @@ public class ArrayUtil {
     }
 
     static int min(int[] array) {
-        Arrays.sort(array);
-        return array[0];
+        if (array.length > 0) {
+            int count = array[0];
+            for (int i = 0; i < array.length; i++) {
+                if (array[i] < count) {
+                    count = array[i];
+                }
+            }
+            return count;
+        }
+        else
+            return 0;
     }
 
     static int max(int[] array) {
-        Arrays.sort(array);
-        return array[array.length-1];
+        if (array.length > 0) {
+            int count = array[0];
+            for (int i = 0; i < array.length; i++) {
+                if (array[i] > count) {
+                    count = array[i];
+                }
+            }
+            return count;
+        }
+        else
+            return 0;
     }
 }
