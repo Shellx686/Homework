@@ -4,6 +4,7 @@ public class Dog extends Animal {
 
     String breed;
 
+
     public Dog(String nameOfDog) {
         super("Собака", "Мясо", "Будка");
     }
