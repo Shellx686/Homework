@@ -10,6 +10,7 @@ import lesson_3.solution2.ArrayUtil;
 // get(int index) - получение элемента по индексу
 // getSize() - получение размера списка
 // isEmpty() - возвращает true, если список пуст, иначе false
+
 public class DynamicArray {
 
     private int[] arr;
