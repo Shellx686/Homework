@@ -42,6 +42,5 @@ public class Main {
         DynamicArray x6 = new DynamicArray(arr6);
         boolean completion = x6.isEmpty();
         System.out.println(completion);
-
     }
 }
